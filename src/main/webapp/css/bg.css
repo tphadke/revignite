@@ -1,0 +1,39 @@
+<style>
+
+
+		.menBG{
+				background-image: url("../images/men-women.jpg");
+				background-size:  cover;
+			 	background-repeat: no-repeat; 
+ 
+			}
+			
+			.womenBG{
+				position: absolute;
+			    left: 40%;
+			    margin-left: -250px;
+						
+ 				height:620px; 
+    			width:1024px;
+				background-image: url("../images/women.jpg");
+				background-size:  cover;
+			 	background-repeat: no-repeat;  
+			 	background-position: absolute; 
+
+			}
+			
+			.copeBG {
+				background-image: url("../images/cope.jpg");
+				background-size:  cover;
+			 	background-repeat: no-repeat;  
+				
+			}
+			
+			.quote {
+    background: rgba(200, 54, 54);
+}
+			/** End: to style navigation tab **/
+			
+			
+			
+		</style>
