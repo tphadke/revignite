@@ -1,0 +1,15 @@
+.womenBG{
+				background-image:url('../images/women.jpg'); 
+				background-size:cover;
+				background-position:100% 100%;
+				height:1008px;
+				width:980px;
+}
+
+.copeBG {
+				background-image: url('../images/cope.jpg');
+				background-size:cover;
+				background-position:100% 100%;
+				height:1008px;
+				width:980px;
+}
