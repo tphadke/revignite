@@ -16,5 +16,8 @@ $(document).ready(function() {
 	
 	$('#videos-content').load('../pages/videos.html');
 
+	$('##managers-content').load('../pages/seekHelp.html');
+	
+	$('##manager-content').load('../pages/manager.html');
 
 });
