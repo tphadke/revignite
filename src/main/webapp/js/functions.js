@@ -1,5 +1,5 @@
 function showFirstModal()
-{ $('#writeMyStory').modal('show'); } 
+{ $('#How_did_you_cope_with_abuse').modal('show'); } 
 
 function showSecondModal()
-{ $('#groupTherapy').modal('show'); }
+{ $('#Participate_in_group_therapy').modal('show'); }
