@@ -3,7 +3,14 @@ $(document).ready(function() {
 	
 	$('#culture-content').load('../pages/culture.html');
 
-	$('#cope-content').load('../pages/cope.html');
+	$('#cope-content').load('../pages/cope.html', function(){
+		$("#How_did_you_cope_with_abuse").click(function(){
+			showFirstModal();								 
+		});
+		$("#Participate_in_group_therapy").click(function(){
+			showSecondModal();								 
+		});
+	});
 
 	
 	$('#men-content').load('../pages/men.html');
