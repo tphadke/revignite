@@ -1,5 +1,18 @@
-		.menBG{
-				background-image: url("../images/men-women.JPG"");
+	@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('../fontface/jennasue.eot');
+    src: url('../fontface/jennasue.eot?#iefix') format('embedded-opentype'),
+         url('../fontface/jennasue.woff2') format('woff2'),
+         url('../fontface/jennasue.woff') format('woff'),
+         url('../fontface/jennasue.ttf') format('truetype'),
+         url('../fontface/jennasue.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+		/*.menBG{
+				background-image: url("../images/men-women.JPG");
 				background-size:  cover;
 			 	background-repeat: no-repeat; 
  				position: absolute;
@@ -12,14 +25,14 @@
 			 	background-repeat: no-repeat;  
 			 	background-position: absolute; 
     			
-			}
+			}*/
 			
-			.womenBG{
+			/*.womenBG{
 				background-image:url('../images/women.jpg'); 
 				background-size:cover;
 				background-position:100% 100%;
 				height:1008px;
-				width:980px;
+				width:980px;*/
 				
 /* 			    background-image: url("../images/women.jpg");  */
 /* 			 	background-repeat: no-repeat;  */
@@ -30,16 +43,16 @@
 /*     			width:1024px; */
 /*     			background-size:  cover; */
 /* 			 	background-repeat: no-repeat;   */
-/* 			 	background-position: absolute;  */
+/* 			 	background-position: absolute;  
     			
-			}
+			}*/
 			
-			.copeBG {
+			/*.copeBG {
 				background-image: url('../images/cope.jpg');
 				background-size:cover;
 				background-position:100% 100%;
 				height:1008px;
-				width:980px;
+				width:980px;*/
 /* 				background-size:  cover; */
 /* 			 	background-repeat: no-repeat;   */
 			 	
@@ -55,8 +68,18 @@
 				
 			}
 			
-			.quote {
+/*.quote {
     background: rgba(200, 54, 54);
-}
+}*/
 			/** End: to style navigation tab **/
 			
+.quote{ margin:20px; border:1px solid #000}
+  .womenheading{
+  	font-family: "jenna_sueregular";
+    font-size: 46px;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: center; margin:0
+  }
+  
+  

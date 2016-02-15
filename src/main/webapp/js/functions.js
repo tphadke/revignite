@@ -172,3 +172,4 @@ function postDataforcope(id){
 function clearStatusCodeforcope(id){
 	$('#statuscode_cope_'+id).html('');	
 }
+

@@ -61,9 +61,9 @@ $(document).ready(function() {
 	$('#women-content').load('../pages/women.html');
 
 	
-	$('#about-content').load('../pages/cultureBuilding.html');
+	/*$('#about-content').load('../pages/cultureBuilding.html');*/
 	
-	$('#videos-content').load('../pages/videos.html');
+	$('#videos-content').load('../pages/videoss.html');
 
 	$('#seekHelp-content').load('../pages/seekHelp.html');
 	
