@@ -15,7 +15,7 @@
 }
 
 .menBG {
-	background-image: url(''../images/hands.jpg'');
+	background-image: url('../images/cope.jpg');
 	background-size: cover;
 	background-position: 100% 100%;
 	height: 1008px;
@@ -39,7 +39,7 @@
 	background-position: 100% 100%;
 	height: 1008px;
 	width: 100%;
-	opacity: 0.6
+	opacity: 1
 }
 
 
@@ -61,7 +61,7 @@
 	background-position: 100% 100%;
 	height: 1008px;
 	width: 100%;
-	opacity: 0.6
+	opacity: 1
 }
 
 .alert-warning {

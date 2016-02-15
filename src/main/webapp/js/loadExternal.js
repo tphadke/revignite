@@ -63,7 +63,9 @@ $(document).ready(function() {
 	
 	/*$('#about-content').load('../pages/cultureBuilding.html');*/
 	
-	$('#videos-content').load('../pages/videoss.html');
+	$('#videos-content').load('../pages/videos.html');
+	
+	$('#be-Mentor').load('../pages/videos.html');
 
 	$('#seekHelp-content').load('../pages/seekHelp.html');
 	
