@@ -10,7 +10,22 @@
     font-style: normal;
 
 }
-	
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fontface/Semibold/OpenSans-Semibold.eot?v=1.1.0");
+  src: url("../fontface/Semibold/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fontface/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("../fontface/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("../fontface/Semibold/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("../fontface/Semibold/OpenSans-Semibold.svg?v=1.1.0#Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+  
+  
+  /*@font-face {
+  font-family: 'Open Sans';
+  src: url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.eot?v=1.1.0");
+  src: url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.woff2?v=1.1.0") format("woff2"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.woff?v=1.1.0") format("woff"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.ttf?v=1.1.0") format("truetype"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.svg?v=1.1.0#SemiboldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic; }
+	*/
 		/*.menBG{
 				background-image: url("../images/men-women.JPG");
 				background-size:  cover;
