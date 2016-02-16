@@ -1,58 +1,61 @@
 $(document).ready(function() {
 	$('#about-content').load('../pages/about.html');
 	
-	$('#culture-content').load('../pages/culture.html');
+	$('#culture-content').load('../pages/culture.html', function(){
+		//alert('animate here');														 
+	});
 
 	$('#cope-content').load('../pages/cope.html', function(){
 		$("#Link_How_did_you_cope_with_abuse").click(function(){
-			showFirstModal();
+			openpopup($(this).attr('data-target'));
 		});
 		$("#Link_Participate_in_group_therapy").click(function(){
-			showSecondModal();
+			openpopup($(this).attr('data-target'));
 		});
 		
 	});
+	
 
 	
 	$('#men-content').load('../pages/men.html',function(){ 
 		$("#menlink_one").click(function(){ 
-			showmenlink_one();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_two").click(function(){ 
-			showmenlink_two();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_three").click(function(){ 
-			showmenlink_three();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_four").click(function(){ 
-			showmenlink_four();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_five").click(function(){ 
-			showmenlink_five();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_six").click(function(){ 
-			showmenlink_six();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_seven").click(function(){ 
-			showmenlink_seven();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_eight").click(function(){ 
-			showmenlink_eight();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_nine").click(function(){ 
-			showmenlink_nine();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_ten").click(function(){ 
-			showmenlink_ten();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_eleven").click(function(){ 
-			showmenlink_eleven();
+			openpopup($(this).attr('data-target'));
 		});
 		$("#menlink_twele").click(function(){ 
-			showmenlink_twele();
+			openpopup($(this).attr('data-target'));
 		});	
 		$("#menlink_thirteen").click(function(){ 
-			showmenlink_thirteen();
+			openpopup($(this).attr('data-target'));
 		});	
 		
 	});
@@ -61,7 +64,7 @@ $(document).ready(function() {
 	$('#women-content').load('../pages/women.html');
 
 	
-	/*$('#about-content').load('../pages/cultureBuilding.html');*/
+	//$('#about-content').load('../pages/cultureBuilding.html');
 	
 	$('#videos-content').load('../pages/videos.html');
 	

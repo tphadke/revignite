@@ -136,16 +136,18 @@
 }
 	
 .culture_content{
-	background:url(../images/bg_10x10.png) repeat 0 0; height:100%; 
-	filter: alpha(opacity=100);
-  	opacity: 1;
+	background:url(../images/bg_10x10.png) repeat 0 0; 
   	font-size:18px;
   	color:#fff;
-  	padding:30px;
+  	padding:0 30px 20px 30px;
+	min-height:908px;
 }
 
 .content_list li{ font-weight:normal; margin-bottom:10px; line-height:22px }
   
+.rel{position:relative}
+.footer{ margin:0px !important}
+.mrgn0{ margin:0!important}
   
 @media all and (max-width: 1099px) {
 
@@ -206,6 +208,7 @@
     height: 100%;
     width: 100%;
 }
+
 
 
 }
