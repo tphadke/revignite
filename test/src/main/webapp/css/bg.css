@@ -1,0 +1,108 @@
+	@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('../fontface/jennasue.eot');
+    src: url('../fontface/jennasue.eot?#iefix') format('embedded-opentype'),
+         url('../fontface/jennasue.woff2') format('woff2'),
+         url('../fontface/jennasue.woff') format('woff'),
+         url('../fontface/jennasue.ttf') format('truetype'),
+         url('../fontface/jennasue.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fontface/Semibold/OpenSans-Semibold.eot?v=1.1.0");
+  src: url("../fontface/Semibold/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fontface/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("../fontface/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("../fontface/Semibold/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("../fontface/Semibold/OpenSans-Semibold.svg?v=1.1.0#Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+  
+  
+  /*@font-face {
+  font-family: 'Open Sans';
+  src: url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.eot?v=1.1.0");
+  src: url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.woff2?v=1.1.0") format("woff2"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.woff?v=1.1.0") format("woff"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.ttf?v=1.1.0") format("truetype"), url("../fontface/SemiboldItalic/OpenSans-SemiboldItalic.svg?v=1.1.0#SemiboldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic; }
+	*/
+		/*.menBG{
+				background-image: url("../images/men-women.JPG");
+				background-size:  cover;
+			 	background-repeat: no-repeat; 
+ 				position: absolute;
+			    left: 40%;
+			    margin-left: -250px;
+						
+ 				height:620px; 
+    			width:1024px;
+    			background-size:  cover;
+			 	background-repeat: no-repeat;  
+			 	background-position: absolute; 
+    			
+			}*/
+			
+			/*.womenBG{
+				background-image:url('../images/women.jpg'); 
+				background-size:cover;
+				background-position:100% 100%;
+				height:1008px;
+				width:980px;*/
+				
+/* 			    background-image: url("../images/women.jpg");  */
+/* 			 	background-repeat: no-repeat;  */
+/*  				position: relative; */
+/* 			    left: 40%; */
+/* 			    margin-left: -250px;		 */
+/*  				height:620px;  */
+/*     			width:1024px; */
+/*     			background-size:  cover; */
+/* 			 	background-repeat: no-repeat;   */
+/* 			 	background-position: absolute;  
+    			
+			}*/
+			
+			/*.copeBG {
+				background-image: url('../images/cope.jpg');
+				background-size:cover;
+				background-position:100% 100%;
+				height:1008px;
+				width:980px;*/
+/* 				background-size:  cover; */
+/* 			 	background-repeat: no-repeat;   */
+			 	
+/* 			 	position: absolute; */
+/* 			    left: 40%; */
+/* 			    margin-left: -250px; */
+						
+/*  				height:620px;  */
+/*     			width:1024px; */
+/*     			background-size:  cover; */
+/* 			 	background-repeat: no-repeat;   */
+/* 			 	background-position: absolute;  */
+				
+			}
+			
+/*.quote {
+    background: rgba(200, 54, 54);
+}*/
+			/** End: to style navigation tab **/
+			
+.quote{ margin:20px; border:1px solid #000}
+  .womenheading{
+  	font-family: "jenna_sueregular";
+    font-size: 46px;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: center; margin:0
+  }
+  
+  .aboutheading{
+  	font-family: "jenna_sueregular";
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: center; margin:0
+  }
+  
+  
