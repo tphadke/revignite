@@ -1,5 +1,5 @@
 	@font-face {
-    font-family: 'jenna_sueregular';
+    /*font-family: 'jenna_sueregular';*/
     src: url('../fontface/jennasue.eot');
     src: url('../fontface/jennasue.eot?#iefix') format('embedded-opentype'),
          url('../fontface/jennasue.woff2') format('woff2'),
@@ -90,19 +90,21 @@
 			
 .quote{ margin:20px; border:1px solid #000}
   .womenheading{
-  	font-family: "jenna_sueregular";
-    font-size: 46px;
+  	/*font-family: "jenna_sueregular";*/
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 20px;
+    /*text-align: center;*/ margin:0
+  }
+  
+  .aboutheading{
+  	/*font-family: "jenna_sueregular";*/
+    font-size: 17px;
     font-weight: bold;
     padding: 0 20px;
     text-align: center; margin:0
   }
   
-  .aboutheading{
-  	font-family: "jenna_sueregular";
-    font-size: 40px;
-    font-weight: bold;
-    padding: 0 20px;
-    text-align: center; margin:0
-  }
+  .alert{padding:1px 10px!important; }
   
   
