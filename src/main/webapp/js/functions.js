@@ -1,7 +1,14 @@
 $(document).ready(function(){ 
 	$('[data-toggle="tooltip"]').tooltip();
-	$("#clt").click(function(){
-		$("#one").fadeIn( 1000, function() {
+	
+	$(".nav-tabs li a").click(function(){
+		$("#one").stop().fadeOut();
+		$("#two").stop().fadeOut();
+		$("#three").stop().fadeOut();
+		$("#four").stop().fadeOut();
+		$("#five").stop().fadeOut();
+		$("#six").stop().fadeOut();
+			$("#one").fadeIn( 1000, function() {
 			$("#two").fadeIn(1000, function() {
 				$("#three").fadeIn(1000, function() {
 					$("#four").fadeIn(1000, function() {
@@ -15,6 +22,10 @@ $(document).ready(function(){
 		});
 	});
 });
+
+$( "#clt" ).blur(function() {
+						  
+	});
 
 function openpopup(str){
 	var arr = str.split(',');
@@ -59,5 +70,13 @@ function hidemodal(mlink,btnlink){
 	});
 
 }
+$(window).scroll(function(){
+  var sticky = $('.head'),
+      scroll = $(window).scrollTop();
+  if (scroll >= 50)
+  	sticky.addClass('sticky-head');
+   else sticky.removeClass('sticky-head');
+   
+});
 
 
