@@ -170,6 +170,9 @@ body { font-family: 'Open Sans' !important; }
 .footer_block ul li a{ display:block; color:#fff; font-size:12px; line-height:25px}
 .footer_block ul li a:hover{ color:#ffff00}
 .footer_fixed{ position:fixed; width:100%; bottom:0; z-index:9}
+.textarea {
+   resize: none !important;
+}
 
 @media all and (max-width: 1099px) {
 
